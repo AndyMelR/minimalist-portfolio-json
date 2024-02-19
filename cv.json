@@ -14,11 +14,18 @@
       "countryCode": "ES",
       "region": "España"
     },
-    "profiles": [{
-      "network": "Instagram",
-      "username": "andrea_melero",
-      "url": "https://twitter.com/john"
-    }]
+    "profiles": [
+      {
+      "network": "GitHub",
+      "username": "AndymelR",
+      "url": "https://github.com/AndyMelR"
+      },
+      {
+      "network": "Linkedin",
+      "username": "AndymelR",
+      "url": "https://www.linkedin.com/in/andreameleror/"
+      }
+    ]
   },
   "work": [{
     "name": "Company",
