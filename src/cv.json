@@ -1,0 +1,110 @@
+{
+  "basics": {
+    "name": "Andrea Melero",
+    "label": "Desarrolladora de Aplicaciones con más de 2 años de experiencia creando productos.",
+    "image": "",
+    "email": "ameleror@gmail.com",
+    "phone": "+34 679016206",
+    "url": "",
+    "summary": "+2 años programando aplicaciones y desarrollando páginas web. He trabajado en diferentes entornos y estoy habituada a trabajar tanto de manera autónoma como en equipo. Soy muy curiosa y activa. Disfruto buscando soluciones a problemas y ayudando a clientes y compañeros. Soy una persona leal, trabajadora y disciplinada en la que poder confiar cualquier proyecto. Tengo una mente inquieta, y siempre me estoy actualizando y aprendiendo cosas nuevas en diferentes ámbitos.",
+    "location": {
+      "address": "Sant Boi de LLobregat",
+      "postalCode": "08830",
+      "city": "Barcelona",
+      "countryCode": "ES",
+      "region": "España"
+    },
+    "profiles": [{
+      "network": "Twitter",
+      "username": "john",
+      "url": "https://twitter.com/john"
+    }]
+  },
+  "work": [{
+    "name": "Company",
+    "position": "President",
+    "url": "https://company.com",
+    "startDate": "2013-01-01",
+    "endDate": "2014-01-01",
+    "summary": "Description…",
+    "highlights": [
+      "Started the company"
+    ]
+  }],
+  "volunteer": [{
+    "organization": "Organization",
+    "position": "Volunteer",
+    "url": "https://organization.com/",
+    "startDate": "2012-01-01",
+    "endDate": "2013-01-01",
+    "summary": "Description…",
+    "highlights": [
+      "Awarded 'Volunteer of the Month'"
+    ]
+  }],
+  "education": [{
+    "institution": "University",
+    "url": "https://institution.com/",
+    "area": "Software Development",
+    "studyType": "Bachelor",
+    "startDate": "2011-01-01",
+    "endDate": "2013-01-01",
+    "score": "4.0",
+    "courses": [
+      "DB1101 - Basic SQL"
+    ]
+  }],
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "certificates": [{
+    "name": "Certificate",
+    "date": "2021-11-07",
+    "issuer": "Company",
+    "url": "https://certificate.com"
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "url": "https://publication.com",
+    "summary": "Description…"
+  }],
+  "skills": [{
+    "name": "Web Development",
+    "level": "Master",
+    "keywords": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
+  }],
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
+  }],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference…"
+  }],
+  "projects": [{
+    "name": "Project",
+    "startDate": "2019-01-01",
+    "endDate": "2021-01-01",
+    "description": "Description...",
+    "highlights": [
+      "Won award at AIHacks 2016"
+    ],
+    "url": "https://project.com/"
+  }]
+}
