@@ -1,1 +1,30 @@
-<h2>Experiencia</h2>
+---
+import Section from "../Section.astro"
+
+import {work} from "@cv"
+---
+
+<Section title="Experience">
+    <ul>
+        {work.map( ({name, startDate, endDate, position, summary, highlights}) => {
+            const startYear = new Date(startDate).getFullYear()
+            const endYear = endDate != null ? new Date(endDate).getFullYear() : "Actualmente"
+            return (
+                <li>
+                    <article>
+                        <header>
+                            <h3>{name}</h3>
+                            <h4>{position}</h4></header>
+                        <footer>
+                            <p>{summary}</p></footer>
+                    </article>
+                </li>
+            )
+        }
+
+        )}
+    </ul>
+
+
+
+</Section>
