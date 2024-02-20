@@ -10,7 +10,7 @@ import {work} from "@cv"
             ({name, startDate, endDate, position, summary, highlights}) => {
             const startYear = new Date(startDate).getFullYear()
             const endYear = endDate != null ? new Date(endDate).getFullYear() : "Actualmente"
-            const years = `${startDate} - ${endDate}`
+            const years = `${startYear} - ${endYear}`
 
                 return (
                     <li>
@@ -20,6 +20,7 @@ import {work} from "@cv"
                                     <h3>{name}</h3>
                                     <h4>{position}</h4>
                                 </div>
+                                 
                                 <time>{years}</time>
                             </header>
                             <footer>
@@ -33,3 +34,35 @@ import {work} from "@cv"
     }
     </ul>
 </Section>
+
+<style>
+    ul {
+       display: flex;
+       gap: 32px;
+       flex-direction: column; 
+    }
+
+    article h3 {
+        margin: 0;
+        font-weight: 500;
+        color: #111;
+    }
+
+    article h4 {
+        margin-top: 10px;
+        color: #222;
+        font-weight: 400;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 4px;
+    }
+
+    time {
+        color: #555;
+        font-size: 0.85rem;
+    }
+</style>

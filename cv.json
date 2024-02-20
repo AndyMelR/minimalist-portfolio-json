@@ -80,15 +80,50 @@
     "url": "https://publication.com",
     "summary": "Description…"
   }],
-  "skills": [{
-    "name": "Web Development",
-    "level": "Master",
+  "skills": [
+    {
+    "name": "HTML",
+    "level": "Mid",
     "keywords": [
-      "HTML",
-      "CSS",
-      "JavaScript"
+      "Desarrollo Web", "Frontend"
     ]
-  }],
+    },
+     {
+    "name": "CSS",
+    "level": "Mid",
+    "keywords": [
+      "Desarrollo Web", "Frontend", "Diseño Responsive"
+    ]
+    },
+     {
+    "name": "HTML",
+    "level": "Junior",
+    "keywords": [
+      "Desarrollo Web", "Frontend"
+    ]
+    },
+     {
+    "name": "Javascript",
+    "level": "Junior",
+    "keywords": [
+      "Desarrollo Web", "Frontend"
+    ]
+    },
+     {
+    "name": "React.js",
+    "level": "Junior",
+    "keywords": [
+      "Desarrollo Web", "Frontend"
+    ]
+    },
+     {
+    "name": "Python",
+    "level": "Junior",
+    "keywords": [
+      "Desarrollo Web", "Backend"
+    ]
+    }
+],
   "languages": [{
     "language": "English",
     "fluency": "Native speaker"
