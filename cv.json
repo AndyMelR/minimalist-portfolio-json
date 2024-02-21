@@ -124,10 +124,25 @@
     ]
     }
 ],
-  "languages": [{
-    "language": "English",
-    "fluency": "Native speaker"
-  }],
+  "languages": [
+    {
+    "language": "Español",
+    "fluency": "Nativo"
+    },
+    {
+    "language": "Catalan",
+    "fluency": "Nativo"
+    },
+    {
+    "language": "Inglés",
+    "fluency": "Avanzado"
+    },
+    {
+    "language": "Francés",
+    "fluency": "Básico"
+    }
+
+],
   "interests": [{
     "name": "Wildlife",
     "keywords": [
@@ -139,14 +154,33 @@
     "name": "Jane Doe",
     "reference": "Reference…"
   }],
-  "projects": [{
-    "name": "Project",
-    "startDate": "2019-01-01",
-    "endDate": "2021-01-01",
-    "description": "Description...",
+  "projects": [
+    {
+    "name": "Bocagua",
+    "isActive": true,
+    "description": "A Bakery ecommerce",
     "highlights": [
-      "Won award at AIHacks 2016"
+      "En desarrollo"
     ],
-    "url": "https://project.com/"
-  }]
+    "url": "https://bocagua.com/"
+    },
+    {
+    "name": "Sweeteners",
+    "isActive": true,
+    "description": "A Sweets Shop ecommerce",
+    "highlights": [
+      "En desarrollo"
+    ],
+    "url": "https://example.com/"
+    },
+    {
+    "name": "Notitia",
+    "isActive": true,
+    "description": "Comunication Scholar App",
+    "highlights": [
+      "Fase de diseño"
+    ],
+    "url": "https://example.com/"
+    }
+]
 }
